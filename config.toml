@@ -1,3 +1,43 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "hugo-developer-portfolio"
+title = "André Meireles"
+
+[params.plugins]
+# CSS Plugins
+[[params.plugins.css]]
+URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+# JS Plugins
+[[params.plugins.js]]
+URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+[[params.plugins.js]]
+URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+[menu]
+[[menu.main]]
+URL = "about"
+name = "About"
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+[[menu.main]]
+URL = "portfolio"
+name = "Portfolio"
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+
+[params]
+home = "Home" # What you want the homepage to show up as in the menu bar
+# Meta data
+author = "Sam Robbins"
+description = "The website of Sam Robbins, 2nd Year Computer Science Student at Durham University"
+
+[params.contact]
+formAction = "https://formspree.io/<Insert code>" # Add your formspree URL here to get emails
+
+# This contains the contact information for the footer
+[params.footer]
+address = "Durham, UK"
+email = "samrobbinsgb@gmail.com"
+googlemaps = "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwbHYJaUqfEgRK0Ui9dVGimc&key=AIzaSyAE_4rVAKux_DSPcb_OdSRDaovtPOSk_3U"

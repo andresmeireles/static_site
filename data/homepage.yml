@@ -1,0 +1,118 @@
+banner:
+  title: Olá! Sou André
+social:
+  twitter: ""
+  linkedin: andresmeireles
+  bitbucket: ""
+  github: andresmeireles
+  gitlab: ""
+  facebook: ""
+  instagram: ""
+  gmail: ""
+  hotmail: "andresmeireles@outlook.com"
+  telegram: ""
+  whatsapp: ""
+
+about:
+  enable: true
+  content: 2nd Year Durham Computer Science Student
+  button:
+    btnText: Find out more
+    URL: "/about"
+
+skill:
+  enable: true
+  item:
+    - title: JavaScript
+      logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Typescript
+      logo: /images/skills/logos/typescript.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Php
+      logo: /images/skills/logos/php.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Dart
+      logo: /images/skills/logos/dart.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: MySql
+      logo: images/skills/logos/mysql.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Symfony
+      logo: images/skills/logos/symfony.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Laravel
+      logo: images/skills/logos/laravel.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Github
+      logo: images/skills/logos/github.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Flutter
+      logo: images/skills/logos/flutter.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: React
+      logo: images/skills/logos/react.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Linux
+      logo: images/skills/logos/linux.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Git
+      logo: images/skills/logos/git.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Docker
+      logo: images/skills/logos/docker.svg
+      description: Details coming soon, contact me if you want to know more
+
+learningSkill:
+  enable: true
+  item:
+    - title: Rust
+      logo: images/skills/logos/rust.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: AWS EC2
+      logo: images/skills/logos/aws-ec2.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: AWS S3
+      logo: images/skills/logos/aws.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: AWS SQS
+      logo: images/skills/logos/aws-sqs.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: AWS RDS
+      logo: images/skills/logos/aws-rds.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: RabbitMQ
+      logo: images/skills/logos/rabbitmq.svg
+      description: Details coming soon, contact me if you want to know more
+    - title: Kotlin
+      logo: images/skills/logos/kotlin.svg
+      description: Details coming soon, contact me if you want to know more
+
+portfolio:
+  enable: true
+  item:
+    - title: Easy DMARC
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1597159067/Easy_DMARC_hkcgif.webp
+      description: A website to make it easy to add DMARC to a Vercel website
+      link: "/portfolio/easy-dmarc"
+      tools:
+        - next-dot-js
+        - tailwindcss
+        - vercel
+        - react
+
+experience:
+  enable: true
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+      title: init.g
+      company: Google
+      duration: November 2019
+
+education:
+  enable: true
+  item:
+    - title: BSc Computer Science
+      year: 2018 - Present
+      academy: Durham University
+      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
